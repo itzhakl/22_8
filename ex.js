@@ -1,4 +1,4 @@
-console.log("sadnsa");
+"use strict";
 //1
 function maxTowNumbers(arg1, arg2) {
     return arg1 + arg2;
@@ -22,16 +22,16 @@ function lengthOfStr(str) {
 }
 //5
 function numToArr(num) {
-    var arr = [];
-    for (var i = 1; i <= num; i++) {
+    let arr = [];
+    for (let i = 1; i <= num; i++) {
         arr.push(i);
     }
     return arr;
 }
 //6
 function maxNumOfArr(arr) {
-    var max = arr[0];
-    for (var i = 1; i < arr.length; i++) {
+    let max = arr[0];
+    for (let i = 1; i < arr.length; i++) {
         if (arr[i] > max) {
             max = arr[i];
         }
@@ -53,8 +53,8 @@ function isMinor(person) {
 }
 //12
 function theOldestReader(readers) {
-    var oldest = readers[0];
-    for (var i = 1; i < readers.length; i++) {
+    let oldest = readers[0];
+    for (let i = 1; i < readers.length; i++) {
         if (readers[i].age > oldest.age) {
             oldest = readers[i];
         }
@@ -63,8 +63,8 @@ function theOldestReader(readers) {
 }
 //13
 function theOldestBook(readers) {
-    var oldest = readers[0].favoriteBook;
-    for (var i = 1; i < readers.length; i++) {
+    let oldest = readers[0].favoriteBook;
+    for (let i = 1; i < readers.length; i++) {
         if (readers[i].favoriteBook.Year > oldest.Year) {
             oldest = readers[i].favoriteBook;
         }

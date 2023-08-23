@@ -1,6 +1,4 @@
 
-console.log("sadnsa");
-
 //1
 function maxTowNumbers(arg1: number, arg2: number):number {
     return arg1 + arg2;
@@ -46,19 +44,19 @@ function maxNumOfArr(arr: number[]):number{
 }
 
 //7
-type Person = {
+type Persones = {
     name: string,
     age: number,
     isStudent: boolean
 }
 
 //8
-function printPerson(person: Person): void{
+function printPerson(person: Persones): void{
     console.log(person.name + ' ' + person.age + ' ' + person.isStudent);
 }
 
 //9
-function isMinor(person: Person): boolean{
+function isMinor(person: Persones): boolean{
     if (person.age < 18) {
         return true;
     } else {
@@ -74,7 +72,7 @@ interface Book {
 }
 
 //11
-type Reader = Person & {favoriteBook: Book};
+type Reader = Persones & {favoriteBook: Book};
 
 //12
 function theOldestReader(readers: Reader[]): Reader {

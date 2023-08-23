@@ -1,14 +1,14 @@
 {
   "name": "type_script",
   "version": "1.0.0",
-  "description": "",
   "main": "ex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc ./ex.ts",
-    "start-dev" : "tsc --watch ./ex.ts"
+    "start-dev": "tsc --watch ./ex.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
